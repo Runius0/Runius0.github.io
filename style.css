@@ -1,0 +1,72 @@
+@keyframes anim_bg1 {
+	from {
+  left: -609px;
+  top: -460px;}
+	to {
+  left: 0px;
+  top: 0px;}
+}
+@keyframes anim_bg2 {
+	from {
+  left: 0px;}
+	to {
+  left: -609px;}
+}
+
+.bg1 {
+  background-image: url("depths.jpg");
+  background-repeat: repeat;
+  width: 200%;
+  height: 200%;
+  position: fixed;
+  left: -609px;
+  top: -460px;
+
+  animation-name: anim_bg1;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  background-blend-mode: multiply;
+  background-color: #444044;
+}
+.bg2 {
+  background-image: url("depths.jpg");
+  background-repeat: repeat;
+  width: 200%;
+  height: 200%;
+  position: fixed;
+  left: -300px;
+  top: 0px;
+
+  animation-name: anim_bg2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+  background-blend-mode: multiply;
+  background-color: #aaaaaa;
+  opacity: 0.2;  
+}
+
+#bar {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+        height: 90px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.barLink {
+	position:relative;
+	width: 120px;
+	background-color: #000000;
+	color: #ffffff;
+	text-align: center;
+	vertical-align: middle;
+	display:table-cell;
+}
