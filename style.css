@@ -25,8 +25,8 @@
 .bg1 {
   background-image: url("depths.jpg");
   background-repeat: repeat;
-  width: 200%;
-  height: 200%;
+  width: calc(100% + 609px);
+  height: calc(100% + 460px);
   position: fixed;
   left: -609px;
   top: -460px;
@@ -42,8 +42,8 @@
 .bg2 {
   background-image: url("depths.jpg");
   background-repeat: repeat;
-  width: 200%;
-  height: 200%;
+  width: calc(100% + 609px);
+  height: calc(100% + 460px);
   position: fixed;
   left: -300px;
   top: 0px;
