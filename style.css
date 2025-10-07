@@ -36,6 +36,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 
+  z-index: -7;
   background-blend-mode: multiply;
   background-color: #444044;
 }
@@ -53,6 +54,7 @@
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 
+  z-index: -5;
   background-blend-mode: multiply;
   background-color: #aaaaaa;
   opacity: 0.2;  
