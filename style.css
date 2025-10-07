@@ -103,4 +103,7 @@
 .textbox {
 	width: 80%;
 	background-color: #002240;
+	border-style: solid;
+	border-width: 8px;
+	border-color: #20a0ba;
 }
