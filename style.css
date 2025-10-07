@@ -15,10 +15,10 @@
 
 @keyframes hoverLink {
 	from {font-size: 28px; color: #ffffff;}
-	to {font-size: 32px; color: #ffff20;}
+	to {font-size: 32px; color: #4060ba;}
 }
 @keyframes unhoverLink {
-	from {font-size: 32px; color: #ffff20;}
+	from {font-size: 32px; color: #4060ba;}
 	to {font-size: 28px; color: #ffffff;}
 }
 
@@ -91,7 +91,7 @@
 	width: 300px;
 	font-size: 32px;
 	background-color: #000000;
-	color: #ffff20;
+	color: #4060ba;
 	text-align: center;
 	vertical-align: middle;
 
