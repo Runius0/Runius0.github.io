@@ -13,6 +13,15 @@
   left: -609px;}
 }
 
+@keyframes hoverLink {
+	from {font-size: 28px; color: #ffffff;}
+	to {font-size: 32px; color: #ffff20;}
+}
+@keyframes unhoverLink {
+	from {font-size: 32px; color: #ffff20;}
+	to {font-size: 28px; color: #ffffff;}
+}
+
 .bg1 {
   background-image: url("depths.jpg");
   background-repeat: repeat;
@@ -67,9 +76,26 @@
 .barLink {
 	position:relative;
 	width: 300px;
-	font-size: 32px;
+	font-size: 28px;
 	background-color: #000000;
 	color: #ffffff;
 	text-align: center;
 	vertical-align: middle;
+	
+  	animation-name: unhoverLink;
+  	animation-duration: 1s;
+}
+
+.barLink:hover {
+	position:relative;
+	width: 300px;
+	font-size: 32px;
+	background-color: #000000;
+	color: #ffff20;
+	text-align: center;
+	vertical-align: middle;
+
+	
+  	animation-name: hoverLink;
+  	animation-duration: 1s;
 }
