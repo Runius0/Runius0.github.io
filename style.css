@@ -15,10 +15,10 @@
 
 @keyframes hoverLink {
 	from {font-size: 28px; color: #ffffff;}
-	to {font-size: 32px; color: #4060ba;}
+	to {font-size: 32px; color: #40a0ba;}
 }
 @keyframes unhoverLink {
-	from {font-size: 32px; color: #4060ba;}
+	from {font-size: 32px; color: #40a0ba;}
 	to {font-size: 28px; color: #ffffff;}
 }
 
@@ -83,7 +83,7 @@
 	vertical-align: middle;
 	
   	animation-name: unhoverLink;
-  	animation-duration: 1s;
+  	animation-duration: 0.5s;
 }
 
 .barLink:hover {
@@ -91,11 +91,16 @@
 	width: 300px;
 	font-size: 32px;
 	background-color: #000000;
-	color: #4060ba;
+	color: #40a0ba;
 	text-align: center;
 	vertical-align: middle;
 
 	
   	animation-name: hoverLink;
-  	animation-duration: 1s;
+  	animation-duration: 0.2s;
+}
+
+.textbox {
+	width: 80%;
+	background-color: #002240;
 }
