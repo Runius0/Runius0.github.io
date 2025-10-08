@@ -1,10 +1,10 @@
 @keyframes anim_bg1 {
 	from {
   left: -609px;
-  top: -460px;}
+  top: 0px;}
 	to {
   left: 0px;
-  top: 0px;}
+  top: -460px;}
 }
 @keyframes anim_bg2 {
 	from {
@@ -15,20 +15,20 @@
 
 @keyframes hoverLink {
 	from {font-size: 28px; color: #ffffff;}
-	to {font-size: 32px; color: #40f0ff;}
+	to {font-size: 32px; color: #40ffd0;}
 }
 @keyframes unhoverLink {
-	from {font-size: 32px; color: #40f0ff;}
+	from {font-size: 32px; color: #40ffd0;}
 	to {font-size: 28px; color: #ffffff;}
 }
 
 @font-face {
 	font-family: 'determination';
-	src: url('./DeterminationMonoWeb.woff')
+	src: url('../DeterminationMonoWeb.woff')
 }
 
 .bg1 {
-  background-image: url("depths.jpg");
+  background-image: url("../depths.jpg");
   background-repeat: repeat;
   width: calc(100% + 609px);
   height: calc(100% + 460px);
@@ -37,16 +37,16 @@
   top: -460px;
 
   animation-name: anim_bg1;
-  animation-duration: 4s;
+  animation-duration: 5.2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 
   z-index: -7;
   background-blend-mode: multiply;
-  background-color: #444044;
+  background-color: #206028;
 }
 .bg2 {
-  background-image: url("depths.jpg");
+  background-image: url("../depths.jpg");
   background-repeat: repeat;
   width: calc(100% + 609px);
   height: calc(100% + 460px);
@@ -55,13 +55,13 @@
   top: 0px;
 
   animation-name: anim_bg2;
-  animation-duration: 7s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 
   z-index: -5;
   background-blend-mode: multiply;
-  background-color: #aaaaaa;
+  background-color: #80c090;
   opacity: 0.2;  
 }
 
@@ -100,7 +100,7 @@
 	width: 300px;
 	font-size: 32px;
 	background-color: #000000;
-	color: #40f0ff;
+	color: #40ffd0;
 	text-align: center;
 	vertical-align: middle;
 
@@ -112,15 +112,15 @@
 .textbox {
 	font-family: 'determination';
 	width: 60%;
-	background-color: #000810;
+	background-color: #00100b;
 	border-style: solid;
 	border-width: 8px;
-	border-color: #20a0ba;
+	border-color: #20c0a0;
 	margin-top: 100px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 10px 10px 10px;
-	color: #b0f0ff;
+	color: #b0fff0;
 	box-shadow: 14px 14px 0 0 rgba(0, 0, 0, 0.5);
 }
 
@@ -144,9 +144,22 @@ h1 {
 	border-style: solid;
 	border-width: 0 0 2px 0;
 }
-
+h2 {
+	padding-left: 20px;
+	color: #ffffff;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	margin-left: 30px;
+	font-size: 28px;
+	width: 20%;
+}
 p {
 	padding-left: 30px;
+	padding-right: 10px;
+	font-size: 20px;
+}
+li {
+	margin-left: 30px;
 	padding-right: 10px;
 	font-size: 20px;
 }
