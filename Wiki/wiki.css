@@ -90,7 +90,9 @@
 	color: #ffffff;
 	text-align: center;
 	vertical-align: middle;
-	
+
+	text-decoration: none;
+
   	animation-name: unhoverLink;
   	animation-duration: 0.5s;
 }
@@ -177,4 +179,15 @@ li {
 	margin-left: 30px;
 	padding-right: 10px;
 	font-size: 20px;
+}
+
+a {
+	color: #40a0ff;
+}
+a:hover {
+	color: #60c0ff;
+}
+
+a:active {
+	color: #104080;
 }
