@@ -113,7 +113,7 @@
 
 .textbox {
 	font-family: 'determination';
-	width: 60%;
+	width: min(90%, 800px);
 	background-color: #000810;
 	border-style: solid;
 	border-width: 8px;
